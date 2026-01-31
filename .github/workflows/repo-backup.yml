@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # Runs every Sunday at 00:00 UTC
-    - cron: "0 0 * * 0"
+    #- cron: "0 0 * * 0"
 
 permissions:
   id-token: write
